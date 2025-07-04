@@ -2,6 +2,7 @@ package testLayer;
 
 import pages.HomePage;
 import pages.LoginPage;
+import pages.PimPage;
 
 public class mainTest {
 	
@@ -13,6 +14,9 @@ public class mainTest {
 		
 		HomePage home=new HomePage();
 		home.validatelogo();
+		
+		PimPage pim=new PimPage();
+		pim.clickOnPimPage();
 		
 		
 	}
