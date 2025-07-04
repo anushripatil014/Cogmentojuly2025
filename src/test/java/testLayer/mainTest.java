@@ -1,5 +1,6 @@
 package testLayer;
 
+import pages.AdminPage;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.PimPage;
@@ -19,6 +20,9 @@ public class mainTest {
 		pim.clickOnPimPage();
 		
 		
+		AdminPage admin=new AdminPage();
+		
+		admin.createNewEmployee();
 	}
 
 }
