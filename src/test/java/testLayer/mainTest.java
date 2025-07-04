@@ -1,5 +1,6 @@
 package testLayer;
 
+import pages.ContactPage;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.PimPage;
@@ -17,6 +18,9 @@ public class mainTest {
 		
 		PimPage pim=new PimPage();
 		pim.clickOnPimPage();
+		
+		ContactPage contact=new ContactPage();
+		contact.addContactPage();
 		
 		
 	}
